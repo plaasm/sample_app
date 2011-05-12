@@ -22,6 +22,7 @@ gem 'sqlite3'
 # gem 'nokogiri'
 gem 'sqlite3-ruby', '1.3.2', :require => 'sqlite3'
 gem 'gravatar_image_tag', '1.0.0.pre2'
+gem 'will_paginate', '3.0.pre2'
 # gem 'aws-s3', :require => 'aws/s3'
 
 # Bundle gems for the local environment. Make sure to
@@ -30,6 +31,7 @@ gem 'gravatar_image_tag', '1.0.0.pre2'
 group :development do
 	gem 'rspec-rails', '2.5.0'
 	gem 'annotate-models', '1.0.4'
+	gem 'faker', '0.3.1'
 end
 
 group :test do
